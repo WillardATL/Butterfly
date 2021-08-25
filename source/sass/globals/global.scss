@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+html,
+body {
+height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+}
+
+.section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

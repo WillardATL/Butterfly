@@ -1,13 +1,11 @@
 .color {
     display: flex;
-    //flex-direction: column;
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: calc(50%-80px);
     .color__box {
         width: 40px;
         height: 40px;
-        box-sizing: border-box;
         &_01 {
             background-color: #ff6666;
         }
