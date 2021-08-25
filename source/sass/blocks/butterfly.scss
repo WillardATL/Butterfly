@@ -1,0 +1,11 @@
+.butterfly {
+    flex: 0 0 300px;
+    svg {
+        display: block;
+        max-width: 100%;
+        height: auto; 
+      }
+    #contour-out {
+      fill: #663333;
+    }
+}

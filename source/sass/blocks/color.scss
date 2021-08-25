@@ -1,0 +1,21 @@
+.color {
+    display: flex;
+    flex-direction: column;
+    .color__box {
+        width: 25px;
+        height: 25px;
+        &_01 {
+            background-color: #ff6666;
+        }
+        &_02 {
+            background-color: #ffcc66;
+        }
+        &_03 {
+            background-color: #cc9933;
+        }
+        &_04 {
+            background-color: #cccccc;
+        }
+
+    }
+}
