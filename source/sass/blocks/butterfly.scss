@@ -1,8 +1,15 @@
 .butterfly {
-    flex: 0 0 300px;
+    flex: 0 1 400px;
+    
     svg {
         display: block;
         max-width: 100%;
-        height: auto; 
+        max-height: 100%; 
+        padding: 10px;
+        #leftWing, #leftWingSmallDot, #leftWingBigDot, #rightWing, #rightWingSmallDot, #rightWingBigDot, #centerBody, #leftAntenna, #rightAntenna {
+          &:hover {
+            cursor: url('/img/icon-color-fill.png') 50 32, auto;
+        }
+        }
       }
 }
