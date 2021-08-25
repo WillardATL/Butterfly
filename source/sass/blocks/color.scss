@@ -1,9 +1,13 @@
 .color {
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
     .color__box {
         width: 25px;
         height: 25px;
+        box-sizing: border-box;
         &_01 {
             background-color: #ff6666;
         }
@@ -16,6 +20,8 @@
         &_04 {
             background-color: #cccccc;
         }
-
+        &#color-active {
+            border: 2px solid rgb(85, 85, 85);
+        }
     }
 }
