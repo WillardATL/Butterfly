@@ -1,11 +1,16 @@
 .color {
     display: flex;
-    position: absolute;
-    top: 10px;
-    left: calc(50%-80px);
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    //position: absolute;
+    //top: 10px;
+    //left: calc(50%-80px);
     .color__box {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         &_01 {
             background-color: #ff6666;
         }
@@ -18,8 +23,28 @@
         &_04 {
             background-color: #cccccc;
         }
+        &_05 {
+            background-color: #663333;
+        }
+        &_06 {
+            background-color: #4691B7;
+        }
+        &_07 {
+            background-color: #797294;
+        }
+        &_08 {
+            background-color: #B887A3;
+        }
+        &_09 {
+            background-color: #848C45;
+        }
+        &_10 {
+            background-color: #3EB595;
+        }
+
         &#color-active {
             border: 2px solid rgb(85, 85, 85);
+            transform: scale(120%);
         }
         &:hover {
             cursor: url('/img/icon-color-dropper.png') 0 50, auto;
