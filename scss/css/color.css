@@ -1,0 +1,75 @@
+.color {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  gap: 5px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 20px;
+}
+
+.color .color__box {
+  width: 60px;
+  height: 60px;
+}
+
+.color .color__box_01 {
+  background-color: #ff6666;
+}
+
+.color .color__box_02 {
+  background-color: #ffcc66;
+}
+
+.color .color__box_03 {
+  background-color: #cc9933;
+}
+
+.color .color__box_04 {
+  background-color: #cccccc;
+}
+
+.color .color__box_05 {
+  background-color: #663333;
+}
+
+.color .color__box_06 {
+  background-color: #4691B7;
+}
+
+.color .color__box_07 {
+  background-color: #797294;
+}
+
+.color .color__box_08 {
+  background-color: #B887A3;
+}
+
+.color .color__box_09 {
+  background-color: #848C45;
+}
+
+.color .color__box_10 {
+  background-color: #3EB595;
+}
+
+.color .color__box#color-active {
+  border: 2px solid #555555;
+  -webkit-transform: scale(120%);
+      -ms-transform: scale(120%);
+          transform: scale(120%);
+}
+
+.color .color__box:hover {
+  cursor: url("/img/icon-color-dropper.png") 0 50, auto;
+}

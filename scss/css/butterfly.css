@@ -1,0 +1,49 @@
+.butterfly {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.butterfly svg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.butterfly svg .areaForColoring:hover {
+  cursor: url("/img/icon-color-fill.png") 50 32, auto;
+}
+
+.reset-btn {
+  width: 24px;
+  height: 24px;
+  background-image: url("/img/icon-reset.png");
+  opacity: 0;
+  visibility: hidden;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  -webkit-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}

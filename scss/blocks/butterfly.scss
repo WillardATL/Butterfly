@@ -12,7 +12,7 @@
         padding: 10px;
         .areaForColoring {
           &:hover {
-            cursor: url('/img/icon-color-fill.png') 50 32, auto;
+            cursor: url('../img/icon-color-fill.png') 50 32, auto;
         }
       }
     }
@@ -21,14 +21,14 @@
 .reset-btn {
   width: 24px;
   height: 24px;
-  background-image: url('/img/icon-reset.png');
+  background-image: url('../img/icon-reset.png');
   opacity: 0;
   visibility: hidden;
   border: none;
   background-color: transparent;
   position: absolute;
   top: 10%;
-  right: 0px;
+  right: 10px;
   transition: all 0.5s ease-in;
   cursor: pointer;
 }
